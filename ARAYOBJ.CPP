@@ -27,14 +27,14 @@ class item
 };
 void main()
 {
- item x[10];
- int i,n,tot;
- l:
- clrscr();
- cout<<"\nEnter the number of items:";
- cin>>n;
- if(n>10) {cout<<"\nEnter number within 10"; goto l;}
- tot=0;
+	item x[10];
+	int i,n,tot;
+	l:
+	clrscr();
+	cout<<"\nEnter the number of items:";
+	cin>>n;
+	if(n>10) {cout<<"\nEnter number within 10"; goto l;}
+	tot=0;
  for(i=0;i<n;i++)
  {
   x[i].getdata();
